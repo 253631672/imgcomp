@@ -26,6 +26,8 @@ python3 imgcomp.py ./原图 ./webp --kb 150 --format WEBP --keep
 python3 imgcomp.py ./图标 ./png --format PNG --max-side 512
 ```
 
+`example/batch.sh` 是一个可直接改路径就跑的批量示例（缩到最长边1600、单张300KB以内）。
+
 ## 参数
 
 | 参数 | 默认 | 说明 |
@@ -54,6 +56,19 @@ python3 imgcomp.py ./图标 ./png --format PNG --max-side 512
 4. 依赖只有一个：`pip install pillow`。不需要 numpy、不需要 ffmpeg。
 5. `--keep` 关掉时同名文件会互相覆盖，多子目录批量时一定加 `--keep`。
 
+## 下载
+
+不想自己拉代码的，打包版（含示例和说明）放在这里：
+
+- 面包多：https://mbd.pub/o/bread/YZaWmJtybQ==
+- 我的小工具主页：https://mbd.pub/o/marco
+
+源码永远在本仓库最新，打包版只是省事。
+
+## 其它小工具
+
+后面会陆续放单文件离线小工具到这个账号，都是"双击就能跑、不联网、不登录"的路子。有想看的方向可以开 issue。
+
 ## 许可
 
-随便用，商用也行，不用署名。
+MIT，随便用，商用也行，不用署名。
